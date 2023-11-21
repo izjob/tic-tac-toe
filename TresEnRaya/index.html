@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <title>3 en raya</title>
+</head>
+
+<body>
+    
+    <br>
+    <div id="game-container">
+        <h1>3 EN RAYA</h1> 
+        <table id="tablero">
+            <tr>
+                <td id="cas1" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas2" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas3" class="casilla" onclick="marcarCasilla(this)"></td>
+            </tr>
+            <tr>
+                <td id="cas4" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas5" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas6" class="casilla" onclick="marcarCasilla(this)"></td>
+            </tr>
+            <tr>
+                <td id="cas7" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas8" class="casilla" onclick="marcarCasilla(this)"></td>
+                <td id="cas9" class="casilla" onclick="marcarCasilla(this)"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div id="msg">TURNO DE: "X"</div>
+        <br>
+        <br>
+        <button onclick="resetGame()">RESET GAME</button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#game-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#tablero{
+    border: 8px grey solid;
+}
+
+.casilla {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: greenyellow;  
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color ease-in 0.1s;
+}
+
+.casilla:hover {
+    background-color:gray;
+}
+
+#msg{
+    font-size: 20px;
+}
